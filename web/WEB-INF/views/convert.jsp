@@ -12,7 +12,7 @@
 </head>
 <body>
 <h3>Convert Money</h3>
-<form method="get" action="/moneyConvert">
+<form method="post" action="/moneyConvert">
     USD: <input type="text" name="usd" >
     <br>
     <br>
@@ -21,8 +21,6 @@
     <br>
     <input type="submit" value="Convert">
 </form>
-<div>
-    <span>Result: ${vnd}</span>
-</div>
+
 </body>
 </html>
